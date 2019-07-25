@@ -1,0 +1,8 @@
+192.168.72.128-----------------------
+whoami
+root
+[root@localhost ~]# -----------------------
+192.168.72.128-----------------------
+id
+uid=0(root) gid=0(root) groups=0(root) context=unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023
+[root@localhost ~]# -----------------------
