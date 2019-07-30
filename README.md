@@ -20,7 +20,7 @@
 ## [K01](https://github.com/GuoKerS/Some_Script/tree/master/K01)
 在HW时做的防守方，每天都要从设备上拉取日志，然后K01（网络攻击阻断系统）的日志提取有限制（一次最多50条），于是分析了K01拉取日志时的请求，写了个小脚本方便自己搞报告。
 ## [proxy_spider(代理中转)](https://github.com/GuoKerS/Some_Script/tree/master/proxy_spider)
-(目录的名称是错滴哈哈，当时是和爬虫一块写在同一个目录下)造的一个轮子，从网上找了各种源码进行学习，终于能勉强用了。原理贼简单 监听1080-》接收发送到1080的HTTP请求存到变量A（连接1） -》随机取一个爬到的代理并连接-》发送变量A到建立的连接中（连接2）-》将HTTP返回包存到变量B -》将变量B返回给连接1
+(目录的名称是错滴哈哈，当时是和爬虫一块写在同一个目录下)造的一个轮子，从网上找了好多大佬的源码进行学习，终于能勉强用了。原理贼简单 监听1080-》接收发送到1080的HTTP请求存到变量A（连接1） -》随机取一个爬到的代理并连接-》发送变量A到建立的连接中（连接2）-》将HTTP返回包存到变量B -》将变量B返回给连接1
 ## [Heartbleed2.0（搜集信息）](https://github.com/GuoKerS/Some_Script/tree/master/Heartbleed2.0)
 初入公司，帮着公司渗透大佬打杂，写的一个心脏出血漏洞的循环利用小脚本，根据官方poc做了一些调整，增加两个参数、去除偏移地址和非ascii字符等等。用来做信息搜集。
 ## [wam（网站连通性监测）](https://github.com/GuoKerS/Some_Script/tree/master/wam)
