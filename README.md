@@ -12,11 +12,11 @@
 后续还有写一些能复用的脚本的话，也都传到这儿吧！
 
 持续更新……
-## url_check
+## [url_check](https://github.com/GuoKerS/Some_Script/tree/master/url_check)
 一个检测域名可用性检测的辣鸡脚本，用gevent折腾协程的时候整的，在信息搜集中搜集到了目标站点的大量二级域名，需要提取出可以正常访问的域名，自动以http、https去尝试访问最后输出到txt。可以配合截图一起食用
 
 ![](https://photo.o0o0.club/_README.md/1571711907351.png)
-## web_screenhot
+## [web_screenhot](https://github.com/GuoKerS/Some_Script/tree/master/web_screenhot)
 一个龟速的网页截图脚本，通过selenium+chromedriver来实现，奈何速度惨不忍睹，先把这个辣鸡demo丢上来吧，等找到其他合适的提速方案再增加些功能给它单独创个仓库吧
 
 ![](https://photo.o0o0.club/_README.md/1571711352311.png)
