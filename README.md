@@ -12,13 +12,21 @@
 后续还有写一些能复用的脚本的话，也都传到这儿吧！
 
 持续更新……
+
+## [getUserList](https://github.com/GuoKerS/Some_Script/tree/master/getUserList_dcgov110)
+一个在级联平台上获取全部用户信息的小脚本，由于平台自身的安全设置较为严格导致无法短时间内多次点击下一页查看信息（一页十条），因此使用F12大法分析到了用户信息的接口，通过对参数的调试得到了一条请求获取全部用户信息的方法，但由于接口返回的并不是json格式，而是直接返回html的内容，所以这里还调用了第三方库lxml对html经行解析，最后将用户信息保存成表格。
+```
+pip3 install lxml # 安装第三方库
+```
+![](https://photo.o0o0.club/_README.md/1583678845788.png)
+
 ## [url_check](https://github.com/GuoKerS/Some_Script/tree/master/url_check)
 一个检测域名可用性检测的辣鸡脚本，用gevent折腾协程的时候整的，在信息搜集中搜集到了目标站点的大量二级域名，需要提取出可以正常访问的域名，自动以http、https去尝试访问最后输出到txt。可以配合截图一起食用
 
 ![](https://photo.o0o0.club/_README.md/1571711907351.png)
 ## [web_screenhot](https://github.com/GuoKerS/Some_Script/tree/master/web_screenhot)
 一个龟速的网页截图脚本，通过selenium+chromedriver来实现，奈何速度惨不忍睹，先把这个辣鸡demo丢上来吧，等找到其他合适的提速方案再增加些功能给它单独创个仓库吧
-
+(之前脚本没传对，尴尬。。。。)
 ![](https://photo.o0o0.club/_README.md/1571711352311.png)
 
 ## [awvs2.0](https://github.com/GuoKerS/Some_Script/tree/master/awvs2.0)
