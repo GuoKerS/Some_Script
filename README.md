@@ -13,6 +13,11 @@
 
 持续更新……
 
+## [aioScan_CVE-2020-0796](https://github.com/GuoKerS/aioScan_CVE-2020-0796)
+基于asyncio（协程）的CVE-2020-0796检测脚本 速度还是十分可观的，方便运维师傅们对内网做下快速检测。
+
+![](https://photo.o0o0.club/_%E5%9F%BA%E4%BA%8E%E5%8D%8F%E7%A8%8B%E7%9A%84CVE-2020-0796%E6%A3%80%E6%B5%8B%E8%84%9A%E6%9C%AC/1584228250694.png)
+
 ## [getUserList](https://github.com/GuoKerS/Some_Script/tree/master/getUserList_dcgov110)
 一个在级联平台上获取全部用户信息的小脚本，由于平台自身的安全设置较为严格导致无法短时间内多次点击下一页查看信息（一页十条），因此使用F12大法分析到了用户信息的接口，通过对参数的调试得到了一条请求获取全部用户信息的方法，但由于接口返回的并不是json格式，而是直接返回html的内容，所以这里还调用了第三方库lxml对html经行解析，最后将用户信息保存成表格。
 ```
