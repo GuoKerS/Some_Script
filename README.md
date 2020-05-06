@@ -13,6 +13,11 @@
 
 持续更新……
 
+## [domain_scan_demo](https://github.com/GuoKerS/domain_scan_demo)
+这是之前的一个很简陋的分布式子域名扫描的轮子,为了尝试学习分布式以及docker的使用，以mysql作为broker和backend，然后调用 [oneforall](https://github.com/shmilylty/OneForAll)进行子域名扫描，并且做成了docker方便自己在其他vps上开箱即用。（后来才了解到celery这样的神器）
+
+![](https://photo.o0o0.club/_分布式子域名扫描轮子（demo）/1588756110496.png)
+
 ## [aioScan_CVE-2020-0796](https://github.com/GuoKerS/aioScan_CVE-2020-0796)
 基于asyncio（协程）的CVE-2020-0796检测脚本 速度还是十分可观的，方便运维师傅们对内网做下快速检测。
 
