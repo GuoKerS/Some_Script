@@ -13,6 +13,12 @@
 
 持续更新……
 
+## [FK01_Attack_type_statistics](https://github.com/GuoKerS/Some_Script/tree/master/FK01_Attack_type_statistics)
+还是为了方便自己统计一些数据搞报告
+
+![enter description here](https://photo.o0o0.club/README.md/1602700858474.png)
+![enter description here](https://photo.o0o0.club/README.md/1602700833362.png)
+
 ## [domain_scan_demo](https://github.com/GuoKerS/domain_scan_demo)
 这是之前的一个很简陋的分布式子域名扫描的轮子,为了尝试学习分布式以及docker的使用，以mysql作为broker和backend，然后调用 [oneforall](https://github.com/shmilylty/OneForAll)进行子域名扫描，并且做成了docker方便自己在其他vps上开箱即用。（后来才了解到celery这样的神器）
 
